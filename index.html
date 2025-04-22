@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a class="nav__logo">JORGECASTILLO</a>
+            <ul class="nav__social">
+                <li>
+                    <a class="nav__link" href="https://github.com/jorge-castillo-l" target="_blank"><img src="assets/icons/icon-github.svg" alt="GitHub"></a>
+                </li>
+                <li>
+                    <a class="nav__link" href="https://www.linkedin.com/in/jorge-castillo-lopez/" target="_blank"><img src="assets/icons/icon-linkedin.svg" alt="LinkedIn"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <picture class="picture">
+                <source media="(min-width: 1024px)" srcset="assets/images/perfil-desktop.JPG">
+                <source media="(min-width: 768px)" srcset="assets/images/perfil-tablet.JPG">
+                <img src="assets/images/perfil-mobile.jpeg" alt="profile image">
+            </picture>
+            <div class="hero__content">
+                <h1 class="hero__title">Soy <span class="hero__name">Desarrollador Front-End</span>.</h1>
+                <p class="hero__text">
+                    Especializado en la construcción de aplicaciones web escalables, utilizando HTML, CSS, JavaScript e integraciones de APIs, con enfoque en las metodologías BEM y Mobile-first.
+                </p>
+                <a href="#contact" class="hero__contact button">Contactar</a>
+            </div>
+        </section>
+
+    <hr class="hr">
+        <section class="skills">
+            <div class="skills__grid">
+                <div class="skills__item">
+                    <h3 class="skills__title">HTML</h3>
+                    <p class="skills__years">2 Años de Experiencia</p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__title">CSS</h3>
+                    <p class="skills__years">2 Años de Experiencia</p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__title">JavaScript</h3>
+                    <p class="skills__years">1 Año de Experiencia</p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__title">Accesibilidad</h3>
+                    <p class="skills__years">1 Año de Experiencia</p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__title">GIT</h3>
+                    <p class="skills__years">1 Año de Experiencia</p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__title">VSCode</h3>
+                    <p class="skills__years">2 Años de Experiencia</p>
+                </div>
+            </div>
+        </section>
+        <hr class="hr hidden">
+        <section class="projects" id="projects">
+            <div class="projects__header">
+                <h2 class="projects__title">Proyectos</h2>
+                <a href="#contact" class="button">Contactar</a>
+            </div>
+            <div class="projects__grid">
+                <article class="project">
+                    <div class="project__image">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="assets/images/ip-large.jpg">
+                            <img src="assets/images/ip-small.jpg" alt="Localizador de direcciones IP">
+                        </picture>
+                        <div class="project__overlay">
+                            <a href="https://jorge-castillo-l.github.io/ip-tracker/" class="button" target="_blank">Ver Proyecto</a>
+                            <a href="https://github.com/jorge-castillo-l/ip-tracker.git" class="button" target="_blank">Ver Código</a>
+                        </div>
+                    </div>
+                    <h3 class="project__title">Localizador de direcciones IP</h3>
+                    <ul class="project__tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <div class="project__buttons">
+                        <a href="https://jorge-castillo-l.github.io/ip-tracker/" class="button" target="_blank">Ver Proyecto</a>
+                        <a href="https://github.com/jorge-castillo-l/ip-tracker.git" class="button" target="_blank">Ver Código</a>
+                    </div>
+                </article>
+                <article class="project">
+                    <div class="project__image">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="assets/images/component-large.jpg">
+                            <img src="assets/images/component-small.jpg" alt="Interactive rating component">
+                        </picture>
+                        <div class="project__overlay">
+                            <a href="https://jorge-castillo-l.github.io/interactive-rating-component/" class="button" target="_blank">Ver Proyecto</a>
+                            <a href="https://github.com/jorge-castillo-l/interactive-rating-component" class="button" target="_blank">Ver Código</a>
+                        </div>
+                    </div>
+                    <h3 class="project__title">Interactive rating component</h3>
+                    <ul class="project__tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <div class="project__buttons">
+                        <a href="https://jorge-castillo-l.github.io/interactive-rating-component/" class="button" target="_blank">Ver Proyecto</a>
+                        <a href="https://github.com/jorge-castillo-l/interactive-rating-component" class="button" target="_blank">Ver Código</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact__content">
+                <h2 class="contact__title">Contacto</h2>
+                <p class="contact__text">Para cualquier duda o proyecto en el que necesites ayuda, solo completa el formulario y te contestaré a la brevedad.</p>
+            </div>
+            <form class="contact__form" id="contactForm" novalidate>
+                <div class="form__group">
+                    <input type="text" id="name" name="name" placeholder="Nombre" required>
+                </div>
+                <div class="form__group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <span class="form__error" aria-live="polite"></span>
+                </div>
+                <div class="form__group">
+                    <textarea id="message" name="message" placeholder="Mensaje" required></textarea>
+                </div>
+                <button type="submit" class="button">Enviar Mensaje</button>
+            </form>
+            <div class="contact__rings"><img src="assets/images/pattern-rings.svg" alt="" aria-hidden="true"></div>
+        </section>
+    </main>
+    <hr>
+    <footer class="footer">
+        <nav class="nav">
+            <a class="nav__logo">JORGECASTILLO</a>
+            <ul class="nav__social">
+                <li><a href="https://github.com/jorge-castillo-l" class="nav__link" aria-label="GitHub" target="_blank"><img src="assets/icons/icon-github.svg" alt="GitHub"></a></li>
+                <li><a href="https://www.linkedin.com/in/jorge-castillo-lopez/" class="nav__link" aria-label="LinkedIn" target="_blank"><img src="assets/icons/icon-linkedin.svg" alt="LinkedIn"></a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
