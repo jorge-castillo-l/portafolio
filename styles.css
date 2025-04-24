@@ -119,6 +119,7 @@ h1, h2, h3 {
     font-size: var(--fs-m);
     font-weight: var(--fw-bold);
     margin-bottom: var(--spacing-s);
+    line-height: .8;
 }
 
 .nav__social {
@@ -180,7 +181,7 @@ h1, h2, h3 {
     font-family: var(--font-family);
     font-size: var(--fs-xl);
     font-weight: var(--fw-bold);
-    line-height: 40px;
+    line-height: 50px;
     letter-spacing: -1.136px;
 }
 
@@ -240,7 +241,7 @@ h1, h2, h3 {
         font-family: var(--font-family);
         font-weight: var(--fw-bold);
         font-size: 72px;
-        line-height: 72px;
+        line-height: 80px;
         letter-spacing: -2.045px;
         color: var(--White, #FFF);
     }
