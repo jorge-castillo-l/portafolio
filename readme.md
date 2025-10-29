@@ -4,7 +4,7 @@ Este es mi **portafolio como Desarrollador Front-End**, donde presento mis habil
 
 ## 🧭 Demo
 
-🔗 [Ver sitio en vivo](https://jorge-castillo-l.github.io/)  
+🔗 [Ver sitio en vivo](https://jorge-castillo-l.github.io/portafolio/)  
 💻 [Ver repositorio](https://github.com/jorge-castillo-l)
 
 ---
